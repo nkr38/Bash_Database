@@ -79,19 +79,21 @@ Database has not been set.
 If there is not ! one argument, respond with:
 Incorrect syntax.
 If the product does not exist in <db>, your script must respond
-<product> does not exist in `<db>`.
+<product> does not exist in <db>.
 Otherwise, the script must delete the corresponding line from <db> and respond
-<product> has been deleted from `<db>`.
+<product> has been deleted from <db>.
 
 printdb
 If the database has not been set by a previous setdb command, your script must respond
 Database has not been set.
 Ignore any arguments
 If the database is set, then pretty-print all the lines from the database
+```
   Product      Price
 ------------  -------                                                                                                   
 Reever        $  3.25
 Thingabob     $121.64
 Marlinespike  $ 12.37
+```
 
 If the database has been set, the script should print all lines from the database.
