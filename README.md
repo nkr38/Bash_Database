@@ -1,19 +1,11 @@
 # Bash_Database
 
-Assignment — Bash Data Base
+## Assignment — Bash Data Base
 
-Overview
-An interactive utility called prod_list which maintains a simple database (a flat text file), as described below
+## Overview
+An interactive utility called prod_list which maintains a simple database (a flat text file), with commands described below
 
-Requirements
-After startup, the script should repeatedly perform these steps, until quit is signalled:
-
-Print a prompt consisting of a percent sign followed by a space
-```
-% 
-```
-
-#Commands
+## Commands
 ```
 quit
   Break out of your input loop, quit the program
@@ -26,7 +18,7 @@ delete
 printdb
   Print all the lines from the database
 ```
-#Print format
+## Print format
 
 ```
   Product      Price
