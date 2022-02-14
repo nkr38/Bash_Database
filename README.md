@@ -1,4 +1,4 @@
-# Bash Data Base
+# Bash Database
 
 ## Overview
 An interactive utility called prod_list which maintains a simple database (a flat text file), with commands described below
