@@ -7,11 +7,11 @@ An interactive utility called prod_list which maintains a simple database (a fla
 ```
 quit
   Break out of your input loop, quit the program
-setdb
+setdb <db>
   Set the filename for the databse file
-add
+add <product> <price>
   Add or update an item to (int) the database
-delete
+delete <product>
   Remove an item from the database
 printdb
   Print all the lines from the database
